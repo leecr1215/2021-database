@@ -1,0 +1,38 @@
+
+/*박스 테두리 만들고, 크기 설정*/
+
+.body {
+  text-align: center;
+  margin-top: 8%;
+
+}
+
+.box {
+  border: 1px solid black;
+  width: 200px;
+  height: auto;
+  text-align: center;
+  margin-left: 43%;
+  font-family: 'NanumSquare';
+}
+
+#logoImg {
+  width: 450px;
+  height: 150px;
+}
+
+#cno, #password, #loginBtn {
+  width: 450px;
+  height: 50px;
+}
+
+#loginBtn {
+  background-color: #add8e6;
+  border: 1px solid #add8e6;
+  font-size: 15px;
+  font-family: 'NanumSquare';
+}
+
+body {
+  background-color: #f0f8ff;
+}

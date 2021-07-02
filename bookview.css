@@ -1,0 +1,123 @@
+/*폰트*/
+/*https://noonnu.cc 에서 가져왔습니다.*/
+@font-face {
+font-family: 'Cafe24Ohsquare';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'yg-jalnan';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+
+img {
+  object-fit: cover;
+  width: 230px;
+}
+
+/*상단 바 관련 css
+수평으로 만들었습니다.*/
+.nav {
+  width: auto;
+  height: 80px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  align-items: center;
+  border-bottom: 2px solid lightGray;
+}
+
+/*상단 바 오른쪽 item 4개에 대한 css*/
+.nav-item {
+  right: 0;
+  margin-right: 30px;
+}
+
+/*상단 바 왼쪽 로고에 관한 css*/
+/*수평으로 만들고 왼쪽에 위치하게 함*/
+.nav-title {
+  width: 200px;
+  display: flex;
+  margin-left: 50px;
+}
+
+/*오른쪽 상단 바 아이템들을 오른쪽으로 위치하게 하는 코드*/
+.nav-item-right {
+  display: flex;
+  margin-left: auto;
+}
+
+/*오른쪽 상단 바 아이템들을 전체적으로 왼쪽으로 옮기기 위한 margin 설정*/
+.nav-item-margin {
+  margin-right: 160px;
+}
+
+/*a 태그의 밑줄 없애고 색깔 검정색으로 만듦*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*a에 마우스 올리면 하늘색*/
+a:hover, .footer-icon-made a:hover, #logoutBtn:hover {
+  color: blue;
+}
+
+
+/*로그아웃 버튼*/
+#logoutBtn {
+  background-color: white;
+  border: 1px solid white;
+  font-weight: 'NanumSquare';
+  font-size: 15px;
+}
+
+.text {
+  font-weight: bold;
+}
+
+img {
+  object-fit: cover;
+  width: 230px;
+}
+
+/*a 태그의 밑줄 없애고 색깔 검정색으로 만듦*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+tr a {
+  color: blue;
+}
+
+/*a에 마우스 올리면 하늘색*/
+a:hover, .footer-icon-made a:hover, #logoutBtn:hover {
+  color: blue;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 100px;
+  font-family: 'NanumSquare';
+}
+
+.gray {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.btn {
+  color: white;
+}

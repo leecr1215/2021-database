@@ -1,0 +1,56 @@
+
+.body {
+  text-align: center;
+  margin-top: 8%;
+
+}
+
+.btn {
+  font-family: 'NanumSquare';
+}
+
+.up {
+  font-size: 20px;
+  font-family: 'NanumSquare';
+}
+
+#signupP {
+  font-size: 30px;
+}
+
+#cno, #password, #name, #email {
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.btn {
+  background-color: #add8e6;
+  border: 1px solid #add8e6;
+  font-size: 15px;
+  font-family: 'NanumSquare';
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+#okBtn {
+  margin-right: 60px;
+}
+
+#nameLabel {
+  margin-left: 32px;
+}
+
+#emailLabel {
+  margin-left: 18px;
+}
+
+hr {
+  width: 450px;
+}
+
+body {
+  background-color: #f0f8ff;
+}
